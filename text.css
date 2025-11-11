@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  padding: 40px;
+  background-color: #f0f0f0;
+}
+
+.resizable {
+  width: 300px;
+  height: 150px;
+  padding: 15px;
+  border: 2px solid #333;
+  background-color: #fff;
+  position: relative;
+  resize: none;
+  overflow: auto;
+}
+
+.resizer {
+  width: 12px;
+  height: 12px;
+  background: #333;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: se-resize;
+}
